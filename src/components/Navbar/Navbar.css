@@ -1,0 +1,42 @@
+.nav {
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    min-height: 65px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 325px) {
+    .nav {
+        flex-direction: column;
+         padding: 10px;
+    }
+}
+
+.nav--logo {
+    display: flex; align-items: center;
+}
+
+.nav--logo img {
+    width: 32px;
+    height: 27px;
+    margin-right: 7px;
+}
+
+.nav--logo span {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 20.7px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+}
+
+.nav-description span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
